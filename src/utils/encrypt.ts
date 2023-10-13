@@ -30,7 +30,7 @@ function serialize(obj: Record<string, any>, prefix?: string): string {
 		.join("&")
 		.replace(/%20/g, "+")
 		.replace(/!/g, "%21")
-		.replace(/'/, "%27");
+		.replace(/'/g, "%27");
 }
 
 function ksort(obj: Record<string, any>): Record<string, any> {
