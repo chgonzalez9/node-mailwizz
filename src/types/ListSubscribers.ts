@@ -26,7 +26,6 @@ export interface GetSubscribersParams {
  * @property {GetSubscribersResponseRecord[]} data.records - Records of the response
  * @memberof  ListSubscribers
  * @see https://api-docs.mailwizz.com/#get-all-subscribers
- * @memberof  ListSubscribers
  */
 export interface GetSubscribersResponse {
 	status: string;
